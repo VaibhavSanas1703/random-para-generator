@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+     <title>Random Paragraph Generator | Vaibhav Sanas</title>
+     <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+
+     <div class="headings">
+          <h1>Random Paragraph Generator !!</h1>
+     </div>
+
+     <div class="input-container">
+          <label>Number of Paragraphs : </label>
+          <input type="text" id="input" value="0" autocomplete="off">
+          <button id="btn" onclick="generatePara()">Generate <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></button>
+          <div class="toggle-container">
+               <img src="./assets/images/moon.svg" id="toggle">
+          </div>     
+     </div>
+
+     <div class="paragraphs-container">
+          <p id="text">Paragraphs will be show here.</p>
+     </div>
+
+     <script src="./assets/js/paragraphs.js"></script>
+     <script src="./assets/js/app.js"></script>
+</body>
+</html>
